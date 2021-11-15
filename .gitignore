@@ -2,4 +2,4 @@ videos/
 
 *.mp4
 
-**.mkv
+*.mkv~
