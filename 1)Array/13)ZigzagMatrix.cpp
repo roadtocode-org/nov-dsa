@@ -12,10 +12,22 @@ int main()
 
     for(int i=0; i<row; i++)
     {
-        for(int j=0; j<col; j++)
+        if(i%2==0)
         {
-            cout<<arr[i][j]<<" ";
+            //forward direction
+            for(int j=0; j<col; j++)
+            {
+                cout<<arr[i][j]<<" ";
+            }
         }
+        else
+        {
+              //backward direction
+            for(int j=col-1; j>=0; j--)
+            {
+                cout<<arr[i][j]<<" ";
+            }
+        }   
         cout<<endl;
     }
     return 0;
