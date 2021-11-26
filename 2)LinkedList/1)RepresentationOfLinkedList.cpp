@@ -24,9 +24,10 @@ int main(){
 
     Node *ptr = node1;
 
-    while(ptr!=NULL){        
+    while(ptr!=NULL){    
+
         cout<<ptr->data<<" ";
-        ptr = ptr->next;
+        ptr = ptr->next;        
     }
 
     return 0;
