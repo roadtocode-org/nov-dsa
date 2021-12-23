@@ -32,6 +32,7 @@ void traverseBackward(Node *node)
     }
 }
 
+ 
 int main()
 {
     Node *head = new Node(10);
